@@ -19,7 +19,7 @@ class Plugin_Redirect extends Plugin
 	
 	function url()
 	{
-        $url = $this->attribute('url');
+		$url = $this->attribute('url');
 		$this->load->helper('url');
 		redirect($url);
 	}
